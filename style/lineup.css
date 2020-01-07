@@ -1,0 +1,34 @@
+#navigation_bar {
+    width: auto;
+    height: 50px;
+    background-color: black;
+}
+#navigation_bar ul li{
+    padding: 15px;
+    border: 1px solid black;
+
+    display: inline-block;
+    position: relative;
+
+
+}
+#navigation_bar ul  {
+    list-style: none;
+}
+#navigation_bar ul li a {
+
+   text-decoration: none;}
+
+   #navigation_bar ul li:hover {
+       background-color: rgba(255, 255, 255, 0.192);
+   }
+   #main_container {
+       width: 80%;
+       height: 100%;
+       background-image: url(../img/terent_fotbal.jpg);
+      background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       position: relative;
+       margin: 0 auto;
+   }
