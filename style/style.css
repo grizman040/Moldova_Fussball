@@ -31,7 +31,7 @@
 }
 body {
     background-image: url(../img/grass-2616911.jpg);
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     background-repeat: repeat-y;
     width: 100%;
@@ -56,9 +56,9 @@ th, td,tr {
     border: 1px solid rgba(49, 48, 48, 0.705);
     padding: 3px;
 }
-tr:nth-child(even) {
+/* tr:nth-child(even) {
     background-color: rgba(128, 128, 128, 0.363);
-}
+} */
 #section-b {
     margin-top: 20px;
     text-align: center;
@@ -93,6 +93,10 @@ footer i {
     font-size: 1.2rem;
     margin-right: 4px;
     color: rgb(92, 226, 39);
+}
+.not_in {
+    text-decoration: line-through;
+    background-color: red;
 }
 
 @media screen and (min-width:1024px) {
